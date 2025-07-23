@@ -11,10 +11,14 @@ use packages:
 9)nodemailer -> handle email process(verify & access).
 
 Project Approach :
-1)Register
-2)Login
-3)Logout
-4)Forget Password
-5)Email verification
-6)sentOtp
-7)Again Login after (new password)
+A secure user authentication backend built with Node.js, Express, and MongoDB. Features include:
+
+✅ User Registration and Login
+
+🔒 Password hashing with bcrypt
+
+🍪 JWT-based authentication via HTTP-only cookies
+
+🚪 Logout functionality
+
+📧 Email/OTP fields prepared for future email verification & password reset
